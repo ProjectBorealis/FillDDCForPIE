@@ -76,6 +76,6 @@ public:
 	TArray<FString> Maps;
 
 	// Steps run when PIE has launched as part of the task.
-	UPROPERTY(config, EditAnywhere)
+	UPROPERTY(config, EditAnywhere, Category = "General")
 	TArray<FAutomateDDCStep> ExtraSteps;
 };
