@@ -31,7 +31,7 @@ struct FAutomateDDCStepCompleteCondition
 
 	// Timeout for this step.
 	UPROPERTY()
-	float TimeoutSeconds;
+	float TimeoutSeconds = 0.f;
 };
 
 
@@ -58,7 +58,7 @@ struct FAutomateDDCStep
 	
 	// After this step has completed, should we wait for Shaders to compile etc...?
 	UPROPERTY()
-	bool bWaitForSettleAfterStep;
+	bool bWaitForSettleAfterStep = false;
 };
 
 
