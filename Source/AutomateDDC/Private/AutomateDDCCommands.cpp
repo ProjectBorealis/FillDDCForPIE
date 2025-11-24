@@ -16,6 +16,7 @@
 
 #include "CoreMinimal.h"
 #include "Tests/AutomationCommon.h"
+#include "Engine/Engine.h"
 
 #include "ShaderCompiler.h"
 #include "Kismet2/DebuggerCommands.h"
