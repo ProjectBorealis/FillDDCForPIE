@@ -4,7 +4,7 @@
 	"VersionName": "1.0",
 	"FriendlyName": "Fill DDC For PIE",
 	"Description": "Plugin used to precache ddc data for your project.",
-	"Category": "Other",
+	"Category": "Editor",
 	"CreatedBy": "Studio Gobo Ltd",
 	"CreatedByURL": "www.studiogobo.com",
 	"DocsURL": "",
